@@ -2,6 +2,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.customHeight {
+    height: 500px;
+}
 
 .icon {
     display: inline-flex;
@@ -45,3 +48,30 @@ text-decoration: none;
 
 .border-top { border-top: 1px solid #e5e5e5; }
 .border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+/* images */
+.product-device {
+    position: absolute;
+    right: 70%;
+    bottom: -90%;
+    width: 375px;
+    height: 812px;
+    background: url("../images/Splash.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 50%; 
+    border-radius: 21px;
+  }
+
+  .product-device2 {
+    width: 300px;
+    height: 650px;
+    background: url("../images/Splash.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 50%; 
+    border-radius: 21px;
+    margin: 0 auto;
+  }
