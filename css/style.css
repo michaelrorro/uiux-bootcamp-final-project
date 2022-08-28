@@ -58,7 +58,36 @@ p {
 .border-top { border-top: 1px solid #e5e5e5; }
 .border-bottom { border-bottom: 1px solid #e5e5e5; }
 
-/* images */
+
+/* homepage images */
+.customize-experience {
+    width: 864px;
+    height: 500px;
+    background: url("../images/customize.png");
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    background-position: center;
+}
+
+.track-activity {
+    width: 864px;
+    height: 500px;
+    background: url("../images/guy-running.png");
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    background-position: center;
+}
+
+.level-up {
+    width: 864px;
+    height: 500px;
+    background: url("../images/friends.png");
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    background-position: center;
+}
+
+/* device images */
 .product-device {
     position: absolute;
     right: 70%;
