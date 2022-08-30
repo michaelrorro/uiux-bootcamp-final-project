@@ -12,6 +12,10 @@ body {
     align-self: center;
 }
 
+a {
+    text-decoration: none !important;
+ }
+
 .icon svg, .icon img {
     height: 50px;
     fill: currentColor;
@@ -65,7 +69,6 @@ p {
     height: 500px;
     background: url("../images/customize.png");
     background-repeat: no-repeat;
-    object-fit: scale-down;
     background-position: center;
 }
 
@@ -74,7 +77,6 @@ p {
     height: 500px;
     background: url("../images/guy-running.png");
     background-repeat: no-repeat;
-    object-fit: scale-down;
     background-position: center;
 }
 
@@ -83,7 +85,6 @@ p {
     height: 500px;
     background: url("../images/friends.png");
     background-repeat: no-repeat;
-    object-fit: scale-down;
     background-position: center;
 }
 
