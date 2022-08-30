@@ -102,10 +102,35 @@ p {
     border-radius: 21px;
   }
 
-  .product-device2 {
+  /* feature page */
+  .customize-device {
     width: 300px;
     height: 650px;
-    background: url("../images/Splash.png");
+    background: url("../images/cusomize-example.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 50%; 
+    border-radius: 21px;
+    margin: 0 auto;
+  }
+
+  .trackactivity-device {
+    width: 300px;
+    height: 650px;
+    background: url("../images/track-activity-example.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 50%; 
+    border-radius: 21px;
+    margin: 0 auto;
+  }
+
+  .levelup-device {
+    width: 300px;
+    height: 650px;
+    background: url("../images/level-up-example.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
